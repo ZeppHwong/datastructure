@@ -1,10 +1,6 @@
 package com.demo.sort;
 
-public class SortArray {
-    public static <T extends Comparable<T>> void sort(T[] a, int n){
-
-    }
-
+public class SelectionSort {
     public static <T extends Comparable<T>> void selectionSort(T[] a, int n){
         for (int i = 0; i < n-1; i++) {
             int indexOfNextSmallest = getIndexOfSmallest(a, i, n-1);
